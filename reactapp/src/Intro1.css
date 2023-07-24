@@ -1,0 +1,138 @@
+.bagrou{
+  background-image: url("https://wallpapercave.com/wp/wp4616796.jpg");
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home12 {
+    /* background-color: #f2f2f2; */
+    /* background-image: url(""); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 14px 5px white; */
+    width: 600pt;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    border: 1px solid black;
+    background-Image: linear-gradient(to right, red, blue);
+    border-style: double;
+    margin-bottom: 10px;
+    /* border-bottom: 2px;
+    padding: 20px 80px;
+    padding: 10px;
+    margin-bottom: 750px;
+    padding-right: 25px;
+    margin-right: 25px; */
+    font-size: 25px;
+    
+  }
+  .home{
+    padding: 25px;
+    
+  }
+ 
+  .add{
+    padding: 25px;
+  }
+  .create{
+    padding: 25px;
+  }
+  .del{
+    padding: 25px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+nav a{
+    color: rgb(241, 238, 238);
+   
+  }
+  
+  nav a:hover {
+    background-color: #e0d5d5;
+    color: #141212;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+  }
+  
+
+
+.navbar li{
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+}
+.navbar li a{
+    text-decoration: wavy ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(217, 221, 224);
+}
+.navbar li a:hover,
+.navbar li a:active{
+    color:rgb(3, 59, 41)
+}
+.navbar li a:active::after,
+.navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(5, 141, 165);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 200%;
+    /* background-color: #f1f1f1; */
+    position: fixed;
+    line-height: 50pt;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBDiX7sBH9zVizCxhiTqGwmLBMlxE27yq3Q&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 150px;
+    font-size: large;
+    font-weight: 600;
+    justify-content: space-between;
+  }
+
+  /* Sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #070505;
+    display: block;
+    background: #f2f2f2;
+    break-inside: initial;
+  }
+  /* Sidebar links on hover */
+  .sidebar ul li:hover {
+    background-color: #cca62b;
+    width: 60px;
+    color: rgb(39, 7, 7);
+  }
+  

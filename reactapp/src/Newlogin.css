@@ -1,0 +1,9 @@
+.new{
+    position: relative;
+    z-index: 3;
+    width: 75%;
+    background-color: rgb(226, 162, 78);
+    margin: 300px 250px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+}
